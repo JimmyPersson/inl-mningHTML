@@ -93,7 +93,7 @@ article {
     justify-content: flex-start;
 }
 
-.refdiv:nth-child(2) {
+.refdiv:nth-child(even) {
     justify-content: flex-end;
 }
 
