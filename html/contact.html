@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RR - Contact</title>
+    <link rel="stylesheet" href="../styling/navstyling.css">
+    <link rel="stylesheet" href="../styling/bodystyling.css">
+    <link rel="stylesheet" href="../styling/footerstyling.css">
+</head>
+
+<header>
+    <a href="../html/index.html" class="title"><span class="initials">R</span>oyal <span class="initials">R</span>estaurations</a>
+        <nav class="nav">
+            <ul>
+                <li class="navoptions"><a class="navoptions" href="../html/index.html">Home</a></li>
+                <li class="navoptions"><a class="navoptions" href="../html/about.html">About</a></li>
+                <li class="navoptions"><a class="navoptions" href="../html/testimon.html">Testimonials</a></li>
+                <li class="navoptions"><a class="selected" href="../html/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+
+<body>
+    <div class="wrap">
+    <div class="bodydiv">
+        <article>
+            <h1>Where can you find us?</h1>
+            <br>
+            <h3>10460 W Sunset Blvd</h3>
+            <br>
+            <h3>Los Angeles CA</h3>
+            <img src="../images/location.jpg" class="locationimg">
+        </article>
+    </div>
+    <div class="bodydiv">
+        <article>
+            <h1>Contact us</h1>
+            <br>
+            <h3>Any questions? Feel free to use the questionaire below, we will reach out to you as soon as possible.</h3>
+        </article>
+    </div>
+    <div class="bodydiv">
+        <article class="questionaire">
+            <label for="name" class="labelstyle">Name</label>
+            <input type="text" id="name" name="name" class="inputstyle">
+            <br>
+            <label for="email" class="labelstyle">Email</label>
+            <input type="text" id="email" name="email" class="inputstyle">
+            <br>
+            <label for="subject" class="labelstyle">Subject</label>
+            <select id="subject" class="labelstyle">
+                <option value ="offer">Price offer</option>
+                <option value ="res">Reservation</option>
+                <option value ="issues">Issues with order</option>
+                <option value ="gen">General questions</option>
+            </select>
+            <br>
+            <br>
+            <label for="message" class="labelstyle">Message</label>
+            <textarea id="message" name="message" rows="10" cols="100" class="textareastyle"></textarea>
+            <button type="button" class="buttonstyle">Submit</button>
+        </article>
+    </div>
+    
+    </div>
+    <footer class="footerstyle">©JP-design | 
+        <a href="../html/index.html">Home</a>
+        |
+        <a href="../html/about.html">About</a>
+        |
+        <a href="../html/testimon.html">Testimonials</a>
+        |
+        <a href="../html/contact.html">Contact</a>
+    </footer>
+</body>
+</html>

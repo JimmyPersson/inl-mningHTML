@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    margin-right: auto;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-family:'Great Vibes', sans-serif;
+    color: rgb(199, 199, 199);
+    font-size: 35px;
+    transition: all 0.4s ease 0s;
+}
+.initials{
+    color:#d85c27;
+    font-family:'Great Vibes', sans-serif;
+}
+.title:hover{
+    color:#d85c27;
+}
+
+header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #0b1d31;
+    z-index: 1;
+}
+
+.nav { 
+    margin-right: 50px;
+}
+
+li, a {
+    list-style-type: none;
+    color: rgb(199, 199, 199);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none; 
+}
+
+.selected {
+    list-style-type: none;
+    color:#d85c27;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none; 
+    padding: 0px 10px;
+}
+
+.navoptions{
+    display: inline-block;
+    padding: 0px 10px;
+    transition: all 0.4s ease 0s;
+}
+
+.navoptions:hover {
+    color:#d85c27;
+}
